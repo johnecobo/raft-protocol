@@ -9,6 +9,38 @@
 * Legacy Grade: No dependencies on "the cloud"—engineered for the long run.
 * Fully Self-Sovereign
 
+block-beta
+  columns 2
+  
+  block:Cognitive["I. COGNITIVE INTERFACE"]
+    columns 1
+    Human["Human-Centric Crypto: BIP-39 to Memory"]
+    Hygiene["Memory Hygiene: Proactive self-testing"]
+  end
+
+  block:Distribution["II. DISTRIBUTION LAYER"]
+    columns 1
+    SSS["2-of-3 Secret Sharing (SSS)"]
+    DMS["Dead Man's Switch: Legacy Release"]
+  end
+
+  block:Posture["III. TECHNICAL POSTURE"]
+    columns 1
+    Zero["Zero-Leaking: Memory-zeroing (zeroize)"]
+    Sovereign["Self-Sovereign: Local-first compute"]
+  end
+
+  block:Architecture["IV. ARCHITECTURE"]
+    columns 1
+    Legacy["Legacy Grade: Engineered for Decades"]
+    Cloud["Cloud Independent: Extinction-proof"]
+  end
+
+  style Cognitive fill:#111820,stroke:#30363d,color:#ff5a00
+  style Distribution fill:#111820,stroke:#30363d,color:#ff5a00
+  style Posture fill:#111820,stroke:#30363d,color:#ff5a00
+  style Architecture fill:#111820,stroke:#30363d,color:#ff5a00
+
 <svg width="800" height="550" viewBox="0 0 800 550" xmlns="http://www.w3.org/2000/svg">
   <rect width="800" height="550" fill="#0a0f14" />
   <rect width="780" height="530" x="10" y="10" fill="#111820" stroke="#30363d" stroke-width="2" rx="4" />
